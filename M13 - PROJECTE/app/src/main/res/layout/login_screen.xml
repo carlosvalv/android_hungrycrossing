@@ -46,27 +46,13 @@
         android:layout_marginTop="15dp"
         android:layout_below="@+id/tvUsername"
         android:layout_alignParentStart="true" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="30dp"
-        android:visibility="invisible"
-        android:text="User and/or password may not correct"
-        android:layout_below="@+id/etPassword"
-        android:gravity="center"
-        android:textAlignment="center"
-        />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/layout2"
         android:orientation="horizontal"
         android:layout_below="@+id/tvPassword"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
-
         >
         <Button
             android:layout_width="wrap_content"
@@ -112,5 +98,4 @@
         android:background="@drawable/border"
         android:textSize="16dp"
         />
-
 </RelativeLayout>
